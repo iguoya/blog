@@ -178,8 +178,8 @@ copyright = "snow tiger"            # default: author.name ↓        # 默认�
     clientSecret = ""       # Your client secret
 
   [params.flowchartDiagrams]# see https://blog.olowolo.com/example-site/post/js-flowchart-diagrams/
-    enable = false
-    options = ""
+  enable = true
+  options = ""
 
   [params.sequenceDiagrams] # see https://blog.olowolo.com/example-site/post/js-sequence-diagrams/
     enable = false

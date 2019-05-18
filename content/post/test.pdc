@@ -7,7 +7,50 @@ description: "第一篇文章"
 tags: ["hugo", "pages"]
 categories: ["pages"]
 author: ""
+
 ---
+
+
+```mermaid
+gitGraph:
+options
+{
+  "nodeSpacing": 150,
+  "nodeRadius": 10
+}
+end
+  commit
+  branch newbranch
+  checkout newbranch
+  commit
+  commit
+  checkout master
+  commit
+  commit
+  merge newbranch
+```
+
+
+
+```mermaid
+  graph LR
+      A --- B
+      B-->C[fa:fa-ban forbidden]
+      B-->D(fa:fa-spinner);
+```
+
+
+$$
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
+$$
+
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+$$
 #sdfsadfasdfasdf
 $$
 \begin{matrix}

@@ -10,7 +10,58 @@ author: ""
 ---
 #sdfsad
 
+1. <div class="mermaid">
+
+2. 
+
+   graph LR
+
+3. 
+
+   ​    A --- B
+
+4. 
+
+   ​    B-->C[fa:fa-ban forbidden]
+
+5. 
+
+   ​    B-->D(fa:fa-spinner);
+
+6. 
+
+   </div>
+
+   <div class="mermaid">
+
+   graph LR
+
+   ​    A --- B
+
+   ​    B-->C[fa:fa-ban forbidden]
+
+   ​    B-->D(fa:fa-spinner);
+
+```scheme
+graph LR;
+A[Hard edge] -->|Link text| B(Round edge)
+B --> C{Decision}
+C -->|One| D[Result one]
+C -->|Two| E[Result two]
+```
+
+
+
 ```mermaid
+graph LR;
+A[Hard edge] -->|Link text| B(Round edge)
+B --> C{Decision}
+C -->|One| D[Result one]
+C -->|Two| E[Result two]
+```
+
+
+
 gitGraph:
 options
 {
@@ -27,7 +78,6 @@ end
   commit
   commit
   merge newbranch
-```
 
 
 
@@ -74,7 +124,6 @@ as
 
 ddd
 
-```mermaid
 gitGraph:
 options
 {
@@ -91,11 +140,11 @@ end
   commit
   commit
   merge newbranch
+
 ```
 
 
 
-```mermaid
 graph LR
 
 A[方形] -->B(圆角)
@@ -107,7 +156,6 @@ A[方形] -->B(圆角)
     C -->|a=2| E[结果2]
 
     F[横向流程图]
-```
 
 
 
@@ -138,7 +186,6 @@ $$
 
 a
 
-```mermaid
 gitGraph:
 options
 {
@@ -155,13 +202,11 @@ end
   commit
   commit
   merge newbranch
-```
 
 
 
 da
 
-```
 ​```mermaid
 gitGraph:
 options

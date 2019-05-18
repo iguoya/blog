@@ -1,0 +1,62 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "学而不思则罔，思而不学则殆"
+theme = "hugo-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = "https://github.com/iguoya/blog/edit/master/content/"
+  description = "编辑文档"
+  author = "Mathieu Cornic"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "主页"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-heart'></i> 高等数学"
+  weight = 11
+  identifier = "高等数学"
+  url = "/高等数学"
+[[Languages.en.menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-calculator'></i> 线性代数"
+  weight = 12
+  identifier = "线性代数"
+  url = "/线性代数"
+[[Languages.en.menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-subscript'></i> 概率论"
+  weight = 13
+  identifier = "概率论"
+  url = "/概率论"
+[[Languages.en.menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-superscript'></i> 数理统计"
+  weight = 14
+  identifier = "数理统计"
+  url = "/数理统计"
+[[Languages.en.menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-language'></i> English"
+  weight = 15
+  identifier = "English"
+  url = "/english"
+[[Languages.en.menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-linux'></i> Linux"
+  weight = 16
+  identifier = "linux"
+  url = "/linux"
+[[Languages.en.menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-github'></i> 关于"
+  weight = 19
+  identifier = "关于"
+  url = "/about"
